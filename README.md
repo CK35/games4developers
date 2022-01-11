@@ -1,6 +1,6 @@
 # games4developers
 
-<img src="/doc/preview.png" alt="Game Preview" width="400">
+<img src="/doc/preview.png" alt="Game Preview" width="550">
 
 Playing video games is fun but automating the game by writing code is even more fun! 
 At least for developers who can not stop programming :grinning:
