@@ -1,3 +1,5 @@
+package com.github.ck35.games4developers;
+
 import com.github.ck35.games4developers.automated.AutomatedPlayer;
 import com.github.ck35.games4developers.board.Gameboard;
 import com.github.ck35.games4developers.board.Spec;
@@ -5,8 +7,8 @@ import com.github.ck35.games4developers.manual.ManualPlayer;
 import com.github.ck35.games4developers.ui.ApplicationFrame;
 import com.github.ck35.games4developers.ui.Character;
 import com.github.ck35.games4developers.ui.RestartGameListener;
-import com.github.ck35.games4developers.ui.opengameart.ForestTiles;
 import com.github.ck35.games4developers.ui.Tiles;
+import com.github.ck35.games4developers.ui.opengameart.ForestTiles;
 import com.github.ck35.games4developers.ui.opengameart.GoblinsWord;
 import com.github.ck35.games4developers.ui.opengameart.Sara;
 import com.github.ck35.games4developers.ui.opengameart.SorloSuperSheet;

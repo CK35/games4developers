@@ -1,5 +1,6 @@
 package com.github.ck35.games4developers.board;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.Consumer;
@@ -20,7 +21,7 @@ public class VisibleArea {
     }
 
     public Stream<Spec.Element> allElements() {
-        return elements.stream().flatMap(list -> list.stream());
+        return elements.stream().flatMap(Collection::stream);
     }
 
     public Optional<Spec.Element> elementAt(CardinalDirection direction) {
@@ -35,7 +36,7 @@ public class VisibleArea {
                 return Optional.ofNullable(columns.get(location.getColumn()));
             }
         }
-        return null;
+        return Optional.empty();
     }
 
     public int getRadius() {
